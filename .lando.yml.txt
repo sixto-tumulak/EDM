@@ -1,0 +1,4 @@
+name: breeze-app
+recipe: laravel
+config:
+  webroot: .

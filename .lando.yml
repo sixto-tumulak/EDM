@@ -1,0 +1,22 @@
+name: breeze-app
+recipe: laravel
+config:
+  php: '8.1'
+  via: 'apache:2.4'
+  webroot: public
+services:
+  appserver:
+    type: 'php:8.1'
+  phpmyadmin:
+    type: phpmyadmin
+  database:
+    type: 'mysql:5.7'
+    creds:
+      user: laravel
+      password: laravel
+      database: laravel
+proxy:
+  phpmyadmin:
+    - breeze.lndo.site
+  mailhog:
+    - mailhog-breeze.lndo.site

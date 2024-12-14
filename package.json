@@ -1,0 +1,30 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build && vite build --ssr"
+    },
+    "devDependencies": {
+        "@protonemedia/laravel-splade": "^1.4.8",
+        "@tailwindcss/forms": "^0.5.3",
+        "@tailwindcss/typography": "^0.5.2",
+        "@vitejs/plugin-vue": "^4.0.0",
+        "autoprefixer": "^10.4.12",
+        "axios": "^1.1.2",
+        "laravel-vite-plugin": "^0.7.5",
+        "postcss": "^8.4.18",
+        "tailwindcss": "^3.3.0",
+        "vite": "^4.0.0",
+        "vue": "^3.2.36"
+    },
+    "dependencies": {
+        "flowbite": "^2.2.0",
+        "flowbite-vue": "^0.1.1",
+        "next": "^14.0.3",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "vue-toastification": "^2.0.0-rc.5",
+        "vuex": "^4.1.0"
+    }
+}
